@@ -4,15 +4,16 @@
   border-bottom: 0;
   border-radius: $border-radius;
   border-right: 0;
+
   &::before {
     border: $icon-border-width solid currentColor;
     border-bottom-right-radius: $border-radius;
     border-left: 0;
     border-top: 0;
     height: .8em;
-    left: 65%;
+    left: 60%;
     top: 40%;
-    width: .7em;
+    width: .75em;
   }
   &::after {
     background: currentColor;

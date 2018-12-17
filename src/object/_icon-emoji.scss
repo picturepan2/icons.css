@@ -5,8 +5,8 @@
   &::before {
     border-radius: 50%;
     box-shadow: -.17em -.1em, .17em -.1em;
-    height: .15em;
-    width: .15em;
+    height: $icon-border-width * 1.5;
+    width: $icon-border-width * 1.5;
   }
   &::after {
     border: $icon-border-width solid currentColor;

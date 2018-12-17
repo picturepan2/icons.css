@@ -39,10 +39,6 @@
     right: 1.5rem;
     top: 1rem;
   }
-
-  .algolia-autocomplete {
-    flex: 1 1 auto;
-  }
 }
 
 .docs-sidebar {
@@ -130,10 +126,6 @@
         text-decoration: none;
       }
     }
-
-    & + .docs-note {
-      margin-top: .4rem;
-    }
   }
 
   .column {
@@ -181,10 +173,15 @@
       align-items: center;
       border-radius: .2rem;
       display: inline-flex;
-      font-size: 1.25em;
+      font-size: 1em;
       height: $unit-12;
       justify-content: center;
       width: $unit-12;
+
+      .icon {
+        font-size: 1.25em;
+        transform: scale(1);
+      }
     }
 
     .icon-example-name {
@@ -194,6 +191,10 @@
     &:hover {
       background: $light-color;
       box-shadow: 0 .4rem 2rem rgba($dark-color, .1);
+
+      .icon-example-main {
+        background: $bg-color;
+      }
     }
   } 
 }

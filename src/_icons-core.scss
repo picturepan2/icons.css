@@ -1,5 +1,6 @@
 // Icon variables
-$icon-border-width: $border-width-lg;
+$icon-border-radius: .1em;
+$icon-border-width: .1em;
 $icon-prefix: "icon";
 
 // Icon base style
@@ -34,21 +35,5 @@ $icon-prefix: "icon";
 
   &.icon-4x {
     font-size: 3.2rem;
-  }
-}
-
-// Component icon support
-.accordion,
-.btn,
-.toast,
-.menu {
-  .#{$icon-prefix} {
-    vertical-align: -10%;
-  }
-}
-
-.btn-lg {
-  .#{$icon-prefix} {
-    vertical-align: -15%;
   }
 }

@@ -36,11 +36,6 @@
   top: 1rem;
 }
 
-.docs-navbar .algolia-autocomplete {
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-}
-
 .docs-sidebar .docs-nav {
   bottom: 1.5rem;
   -webkit-overflow-scrolling: touch; 
@@ -122,11 +117,6 @@
   visibility: visible;
 }
 
-.docs-content .s-title + .docs-note,
-.docs-content .s-subtitle + .docs-note {
-  margin-top: .4rem;
-}
-
 .docs-content .column {
   padding: .4rem;
 }
@@ -174,10 +164,15 @@
   display: -ms-inline-flexbox;
   -ms-flex-align: center;
   -ms-flex-pack: center;
-  font-size: 1.25em;
+  font-size: 1em;
   height: 2.4rem;
   justify-content: center;
   width: 2.4rem;
+}
+
+.docs-content .icon-example .icon-example-main .icon {
+  font-size: 1.25em;
+  transform: scale(1);
 }
 
 .docs-content .icon-example .icon-example-name {
@@ -190,6 +185,10 @@
 .docs-content .icon-example:hover {
   background: #fff;
   box-shadow: 0 .4rem 2rem rgba(48, 55, 66, .1);
+}
+
+.docs-content .icon-example:hover .icon-example-main {
+  background: #f7f8f9;
 }
 
 .docs-brand {
