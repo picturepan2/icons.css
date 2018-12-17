@@ -1,0 +1,20 @@
+// Icon search
+.icon-search {
+  &::before {
+    border: $icon-border-width solid currentColor;
+    border-radius: 50%;
+    height: .75em;
+    left: 5%;
+    top: 5%;
+    transform: translate(0, 0) rotate(45deg);
+    width: .75em;
+  }
+  &::after {
+    background: currentColor;
+    height: $icon-border-width;
+    left: 80%;
+    top: 80%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    width: .4em;
+  }
+}

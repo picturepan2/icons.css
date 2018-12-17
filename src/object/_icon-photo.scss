@@ -1,0 +1,22 @@
+// Icon photo
+.icon-photo {
+  border: $icon-border-width solid currentColor;
+  border-radius: $border-radius;
+  &::before {
+    border: $icon-border-width solid currentColor;
+    border-radius: 50%;
+    height: .25em;
+    left: 35%;
+    top: 35%;
+    width: .25em;
+  }
+  &::after {
+    border: $icon-border-width solid currentColor;
+    border-bottom: 0;
+    border-left: 0;
+    height: .5em;
+    left: 60%;
+    transform: translate(-50%, 25%) rotate(-45deg);
+    width: .5em;
+  }
+}

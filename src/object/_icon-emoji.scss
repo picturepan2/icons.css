@@ -1,0 +1,20 @@
+// Icon emoji
+.icon-emoji {
+  border: $icon-border-width solid currentColor;
+  border-radius: 50%;
+  &::before {
+    border-radius: 50%;
+    box-shadow: -.17em -.1em, .17em -.1em;
+    height: .15em;
+    width: .15em;
+  }
+  &::after {
+    border: $icon-border-width solid currentColor;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    border-right-color: transparent;
+    height: .5em;
+    transform: translate(-50%, -40%) rotate(-135deg);
+    width: .5em;
+  }
+}

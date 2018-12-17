@@ -1,0 +1,18 @@
+// Icon download
+.icon-download {
+  border-bottom: $icon-border-width solid currentColor;
+  &::before {
+    border: $icon-border-width solid currentColor;
+    border-bottom: 0;
+    border-right: 0;
+    height: .5em;
+    width: .5em;
+    transform: translate(-50%, -60%) rotate(-135deg);
+  }
+  &::after {
+    background: currentColor;
+    height: .6em;
+    top: 40%;
+    width: $icon-border-width;
+  }
+}

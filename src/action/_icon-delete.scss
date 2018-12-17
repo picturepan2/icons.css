@@ -1,0 +1,19 @@
+// Icon delete
+.icon-delete {
+  &::before {
+    border: $icon-border-width solid currentColor;
+    border-bottom-left-radius: $border-radius;
+    border-bottom-right-radius: $border-radius;
+    border-top: 0;
+    height: .75em;
+    top: 60%;
+    width: .75em;
+  }
+  &::after {
+    background: currentColor;
+    box-shadow: -.25em .2em, .25em .2em;
+    height: $icon-border-width;
+    top: $icon-border-width/2;
+    width: .5em;
+  }
+}

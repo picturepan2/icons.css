@@ -1,0 +1,11 @@
+// Icon stop
+.icon-stop {
+  border: $icon-border-width solid currentColor;
+  border-radius: 50%;
+  &::before {
+    background: currentColor;
+    height: $icon-border-width;
+    transform: translate(-50%, -50%) rotate(45deg);
+    width: 1em;
+  }
+}

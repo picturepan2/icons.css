@@ -1,0 +1,20 @@
+// Icon bookmark
+.icon-bookmark {
+  &::before {
+    border: $icon-border-width solid currentColor;
+    border-bottom: 0;
+    border-top-left-radius: $border-radius;
+    border-top-right-radius: $border-radius;
+    height: .9em;
+    width: .8em;
+  }
+  &::after {
+    border: $icon-border-width solid currentColor;
+    border-bottom: 0;
+    border-left: 0;
+    border-radius: $border-radius;
+    height: .5em;
+    transform: translate(-50%, 35%) rotate(-45deg) skew(15deg, 15deg);
+    width: .5em;
+  }
+}

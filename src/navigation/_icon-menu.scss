@@ -1,0 +1,9 @@
+// Icon menu
+.icon-menu {
+  &::before {
+    background: currentColor;
+    box-shadow: 0 -.35em, 0 .35em;
+    height: $icon-border-width;
+    width: 100%;
+  }
+}

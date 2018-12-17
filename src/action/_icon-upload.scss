@@ -1,0 +1,18 @@
+// Icon upload
+.icon-upload {
+  border-bottom: $icon-border-width solid currentColor;
+  &::before {
+    border: $icon-border-width solid currentColor;
+    border-bottom: 0;
+    border-right: 0;
+    height: .5em;
+    width: .5em;
+    transform: translate(-50%, -60%) rotate(45deg);
+  }
+  &::after {
+    background: currentColor;
+    height: .6em;
+    top: 50%;
+    width: $icon-border-width;
+  }
+}

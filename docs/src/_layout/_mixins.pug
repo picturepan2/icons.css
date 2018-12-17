@@ -1,0 +1,19 @@
+mixin icon-example(name)
+  .icon-example
+    .icon-example-main
+      i.icon(class=name)
+    .icon-example-name
+      | #{name}
+
+mixin docs-heading(id, name)
+  .container(id=id)
+    h3.s-title
+      | #{name}
+      a.anchor(href='#'+id aria-hidden='true') #
+    if block
+      block
+
+mixin docs-subheading(id, name)
+  h4.s-subtitle(id=id)
+    | #{name}
+    a.anchor(href='#'+id aria-hidden='true') #

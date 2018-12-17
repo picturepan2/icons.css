@@ -1,0 +1,11 @@
+// Icon caret
+.icon-caret {
+  &::before {
+    border-top: .3em solid currentColor;
+    border-right: .3em solid transparent;
+    border-left: .3em solid transparent;
+    height: 0;
+    transform: translate(-50%, -25%);
+    width: 0;
+  }
+}

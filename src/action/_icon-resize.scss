@@ -1,0 +1,27 @@
+// Icon resize
+.icon-resize-horiz,
+.icon-resize-vert {
+  &::before,
+  &::after {
+    border: $icon-border-width solid currentColor;
+    border-bottom: 0;
+    border-right: 0;
+    height: .45em;
+    width: .45em;
+  }
+  &::before {
+    transform: translate(-50%, -90%) rotate(45deg);
+  }
+  &::after {
+    transform: translate(-50%, -10%) rotate(225deg);
+  }
+}
+
+.icon-resize-horiz {
+  &::before {
+    transform: translate(-90%, -50%) rotate(-45deg);
+  }
+  &::after {
+    transform: translate(-10%, -50%) rotate(135deg);
+  }
+}

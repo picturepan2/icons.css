@@ -1,0 +1,43 @@
+{
+  "name": "icons.css",
+  "version": "0.1.0",
+  "homepage": "http://picturepan2.github.io/icons.css",
+  "author": "Yan Zhu <picturepan2@hotmail.com>",
+  "description": "Icons.css:",
+  "main": "dist/icons.css",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/picturepan2/icons.css.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "css",
+    "icon",
+    "mobile-friendly",
+    "front-end",
+    "sass",
+    "modern"
+  ],
+  "bugs": {
+    "url": "https://github.com/picturepan2/icons.css/issues"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "latest",
+    "gulp-clean-css": "latest",
+    "gulp-csscomb": "latest",
+    "gulp-pug": "latest",
+    "gulp-rename": "latest",
+    "gulp-sass": "latest",
+    "jstransformer-highlight": "latest",
+    "jstransformer-markdown-it": "latest"
+  },
+  "browserslist": [
+    "last 4 Chrome versions",
+    "Edge >= 12",
+    "Firefox ESR",
+    "last 4 Safari versions",
+    "last 4 Opera versions",
+    "Explorer >= 10"
+  ]
+}

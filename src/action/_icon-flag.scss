@@ -1,0 +1,19 @@
+// Icon flag
+.icon-flag {
+  &::before {
+    background: currentColor;
+    height: 1em;
+    left: 15%;
+    width: $icon-border-width;
+  }
+  &::after {
+    border: $icon-border-width solid currentColor;
+    border-bottom-right-radius: $border-radius;
+    border-left: 0;
+    border-top-right-radius: $border-radius;
+    height: .65em;
+    top: 35%;
+    left: 60%;
+    width: .8em;
+  }
+}

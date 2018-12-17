@@ -1,0 +1,13 @@
+// Icon plus
+.icon-plus {
+  &::before {
+    background: currentColor;
+    height: $icon-border-width;
+    width: 100%;
+  }
+  &::after {
+    background: currentColor;
+    height: 100%;
+    width: $icon-border-width;
+  }
+}

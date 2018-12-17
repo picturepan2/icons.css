@@ -1,0 +1,25 @@
+// Icon share
+.icon-share {
+  border: $icon-border-width solid currentColor;
+  border-radius: $border-radius;
+  border-right: 0;
+  border-top: 0;
+  &::before {
+    border: $icon-border-width solid currentColor;
+    border-left: 0;
+    border-top: 0;
+    height: .4em;
+    left: 100%;
+    top: .25em;
+    transform: translate(-125%, -50%) rotate(-45deg);
+    width: .4em;
+  }
+  &::after {
+    border: $icon-border-width solid currentColor;
+    border-bottom: 0;
+    border-right: 0;
+    border-radius: 75% 0;
+    height: .5em;
+    width: .6em;
+  }
+}

@@ -1,0 +1,19 @@
+// Icon refresh
+.icon-refresh {
+  &::before {
+    border: $icon-border-width solid currentColor;
+    border-radius: 50%;
+    border-right-color: transparent;
+    height: 1em;
+    width: 1em;
+  }
+  &::after {
+    border: .2em solid currentColor;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    height: 0;
+    left: 80%;
+    top: 20%;
+    width: 0;
+  }
+}

@@ -1,0 +1,17 @@
+// Icon person
+.icon-person {
+  &::before {
+    border: $icon-border-width solid currentColor;
+    border-radius: 50%;
+    height: .45em;
+    top: 25%;
+    width: .45em;
+  }
+  &::after {
+    border: $icon-border-width solid currentColor;
+    border-radius: 50% 50% 0 0;
+    height: .4em;
+    top: 75%;
+    width: .9em;
+  }
+}

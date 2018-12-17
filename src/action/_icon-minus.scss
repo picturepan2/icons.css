@@ -1,0 +1,8 @@
+// Icon minus
+.icon-minus {
+  &::before {
+    background: currentColor;
+    height: $icon-border-width;
+    width: 100%;
+  }
+}

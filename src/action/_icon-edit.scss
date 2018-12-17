@@ -1,0 +1,19 @@
+// Icon edit
+.icon-edit {
+  &::before {
+    border: $icon-border-width solid currentColor;
+    height: .4em;
+    transform: translate(-40%, -60%) rotate(-45deg);
+    width: .85em;
+  }
+  &::after {
+    border: .15em solid currentColor;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    height: 0;
+    left: 5%;
+    top: 95%;
+    transform: translate(0, -100%);
+    width: 0;
+  }
+}

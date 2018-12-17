@@ -1,0 +1,17 @@
+// Icon link
+.icon-link {
+  &::before,
+  &::after {
+    border: $icon-border-width solid currentColor;
+    border-radius: 5em 0 0 5em;
+    border-right: 0;
+    height: .5em;
+    width: .75em;
+  }
+  &::before {
+    transform: translate(-70%, -45%) rotate(-45deg);
+  }
+  &::after {
+    transform: translate(-30%, -55%) rotate(135deg);
+  }
+}

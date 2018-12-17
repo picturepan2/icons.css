@@ -1,0 +1,18 @@
+// Icon time
+.icon-time {
+  border: $icon-border-width solid currentColor;
+  border-radius: 50%;
+  &::before {
+    background: currentColor;
+    height: .4em;
+    transform: translate(-50%, -75%);
+    width: $icon-border-width;
+  }
+  &::after {
+    background: currentColor;
+    height: .3em;
+    transform: translate(-50%, -75%) rotate(90deg);
+    transform-origin: 50% 90%;
+    width: $icon-border-width;
+  }
+}
