@@ -11,15 +11,15 @@
     border-left: 0;
     border-top: 0;
     height: .8em;
-    left: 60%;
-    top: 40%;
+    left: 65%;
+    top: 35%;
     width: .75em;
   }
   &::after {
     background: currentColor;
     border-radius: $border-radius;
-    height: .3em;
-    left: 10%;
+    height: .35em;
+    left: 7%;
     top: 100%;
     transform: translate(0, -90%) rotate(45deg);
     width: $icon-border-width;

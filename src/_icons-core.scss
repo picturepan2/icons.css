@@ -1,6 +1,6 @@
 // Icon variables
 $icon-border-radius: .1em;
-$icon-border-width: .1em;
+$icon-border-width: .1rem;
 $icon-prefix: "icon";
 
 // Icon base style
@@ -26,14 +26,14 @@ $icon-prefix: "icon";
 
   // Icon sizes
   &.icon-2x {
-    font-size: 1.6rem;
+    font-size: 32px;
   }
 
   &.icon-3x {
-    font-size: 2.4rem;
+    font-size: 48px;
   }
 
   &.icon-4x {
-    font-size: 3.2rem;
+    font-size: 64px;
   }
 }

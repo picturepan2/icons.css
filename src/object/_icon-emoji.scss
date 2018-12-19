@@ -4,7 +4,7 @@
   border-radius: 50%;
   &::before {
     border-radius: 50%;
-    box-shadow: -.17em -.1em, .17em -.1em;
+    box-shadow: -.17em -.15em, .17em -.15em;
     height: $icon-border-width * 1.5;
     width: $icon-border-width * 1.5;
   }

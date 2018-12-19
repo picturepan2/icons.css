@@ -10,9 +10,9 @@
   }
   &::after {
     background: currentColor;
-    height: .3em;
-    transform: translate(-50%, -75%) rotate(90deg);
-    transform-origin: 50% 90%;
+    height: .25em;
+    transform: translate(-50%, -75%) rotate(125deg);
+    transform-origin: 50% 100%;
     width: $icon-border-width;
   }
 }
