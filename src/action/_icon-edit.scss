@@ -3,7 +3,7 @@
   &::before {
     border: $icon-border-width solid currentColor;
     height: .4em;
-    transform: translate(-40%, -60%) rotate(-45deg);
+    transform: translate(-.35em, -.25em) rotate(-45deg);
     width: .85em;
   }
   &::after {

@@ -161,7 +161,7 @@
   border-left: 0;
   border-radius: .1rem;
   height: .5em;
-  transform: translate(-50%, 35%) rotate(-45deg) skew(15deg, 15deg);
+  transform: translate(-50%, .2em) rotate(-45deg) skew(15deg, 15deg);
   width: .5em;
 }
 
@@ -170,7 +170,7 @@
   border-right: 0;
   border-top: 0;
   height: .5em;
-  transform: translate(-50%, -75%) rotate(-45deg); 
+  transform: translate(-50%, -.375em) rotate(-45deg); 
   width: .9em;
 }
 
@@ -238,7 +238,7 @@
   border-bottom: 0;
   border-right: 0;
   height: .5em;
-  transform: translate(-50%, -60%) rotate(-135deg); 
+  transform: translate(-50%, -.3em) rotate(-135deg); 
   width: .5em;
 }
 
@@ -252,7 +252,7 @@
 .icon-edit::before {
   border: .1rem solid currentColor;
   height: .4em;
-  transform: translate(-40%, -60%) rotate(-45deg);
+  transform: translate(-.35em, -.25em) rotate(-45deg);
   width: .85em;
 }
 
@@ -328,8 +328,8 @@
   border: .1rem solid currentColor;
   border-bottom: 0;
   border-right: 0;
-  height: .45em;
-  width: .45em;
+  height: .4em;
+  width: .4em;
 }
 
 .icon-resize-horiz::before,
@@ -443,6 +443,31 @@
   width: .1rem;
 }
 
+.icon-audio {
+  border: .1rem solid currentColor;
+  border-radius: .4em;
+  height: .6em;
+  margin: -.4em .3em 0 .3em;
+  width: .4em;
+}
+
+.icon-audio::before {
+  background: currentColor;
+  height: .15em;
+  transform: translate(-50%, .45em);
+  width: .1rem;
+}
+
+.icon-audio::after {
+  border: .1rem solid currentColor;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  border-right-color: transparent;
+  height: .7em;
+  transform: translate(-50%, -35%) rotate(-135deg);
+  width: .7em;
+}
+
 .icon-emoji {
   border: .1rem solid currentColor;
   border-radius: 50%;
@@ -461,7 +486,7 @@
   border-radius: 50%;
   border-right-color: transparent;
   height: .5em;
-  transform: translate(-50%, -40%) rotate(-135deg);
+  transform: translate(-50%, -.2em) rotate(-135deg);
   width: .5em;
 }
 
@@ -494,7 +519,7 @@
   border: .1rem solid currentColor;
   border-radius: 50%;
   height: .3em;
-  transform: translate(-50%, -80%);
+  transform: translate(-50%, -.25em);
   width: .3em;
 }
 
@@ -510,7 +535,7 @@
   border-right: 0;
   border-top: 0;
   height: .5em;
-  transform: translate(-50%, -90%) rotate(-45deg) skew(10deg, 10deg);
+  transform: translate(-50%, -.45em) rotate(-45deg) skew(10deg, 10deg);
   width: .5em;
 }
 
@@ -538,7 +563,7 @@
   height: .35em;
   left: 7%;
   top: 100%;
-  transform: translate(0, -90%) rotate(45deg);
+  transform: translate(0, -.32em) rotate(45deg);
   width: .1rem;
 }
 

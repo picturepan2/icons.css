@@ -28,34 +28,34 @@ block content
         .column.col-4.col-xs-12
           .card.text-center
             .card-header
-              span.card-title Lightweight
+              span.card-title Modern
             .card-body
-              | Lightweight  (~10KB gzipped) starting point for your projects
+              | Elegantly developed pure CSS icons
         .column.col-4.col-xs-12
           .card.text-center
             .card-header
               span.card-title Responsive
             .card-body
-              | Flexbox-based, responsive icons
+              | Font size based single element icons
         .column.col-4.col-xs-12
           .card.text-center
             .card-header
-              span.card-title Modern
+              span.card-title Production Ready
             .card-body
-              | Elegantly designed and developed elements and components
+              | Production ready icons for your projects
   
   .section.section-ads.bg-gray
     include _layout/_ad-g.pug
 
-  .section.section-icons.text-center
+  .section.section-icons
     .docs-content.container.grid-lg
       p
-        | Icons are single-element, responsive and pure CSS icons.
+        | Icons are single element, responsive and pure CSS icons.
         | You can include #[code icons.css] located in the #[code dist] folder to your web #{'<head>'} to have these CSS icons.
 
       +docs-subheading('icons-navigation', 'Navigation icons')
 
-      .columns
+      .columns.text-center
         .column.col-3.col-md-6
           +icon-example('icon-arrow-up')
         .column.col-3.col-md-6
@@ -85,7 +85,7 @@ block content
 
       +docs-subheading('icons-action', 'Action icons')
 
-      .columns
+      .columns.text-center
         .column.col-3.col-md-6
           +icon-example('icon-resize-horiz')
         .column.col-3.col-md-6
@@ -125,7 +125,9 @@ block content
 
       +docs-subheading('icons-object', 'Object icons')
 
-      .columns
+      .columns.text-center
+        .column.col-3.col-md-6
+          +icon-example('icon-audio')
         .column.col-3.col-md-6
           +icon-example('icon-mail')
         .column.col-3.col-md-6
@@ -152,9 +154,10 @@ block content
 
       p
         | Use #[code icon-2x], #[code icon-3x] and #[code icon-4x] classes to increase icon sizes.
+        i.icon.icon-audio
         | You can set #[code font-size] to have different icon sizes.
 
-      .columns
+      .columns.text-center
         .column.col-3.col-md-6
           p
             i.icon.icon-2x.icon-mail
@@ -167,6 +170,8 @@ block content
           p
             i.icon.icon-4x.icon-mail
           p icon-4x (64px)
+          button.btn.btn-primary
+            i.icon.icon-audio
 
       pre.code(data-lang='HTML')
         code

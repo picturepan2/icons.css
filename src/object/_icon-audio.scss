@@ -1,0 +1,23 @@
+// Icon audio
+.icon-audio {
+  border: $icon-border-width solid currentColor;
+  border-radius: .4em;
+  height: .6em;
+  margin: -.4em .3em 0 .3em;
+  width: .4em;
+  &::before {
+    background: currentColor;
+    height: .15em;
+    transform: translate(-50%, .45em);
+    width: $icon-border-width;
+  }
+  &::after {
+    border: $icon-border-width solid currentColor;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    border-right-color: transparent;
+    height: .7em;
+    transform: translate(-50%, -35%) rotate(-135deg);
+    width: .7em;
+  }
+}
